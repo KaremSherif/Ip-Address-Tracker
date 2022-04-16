@@ -1,0 +1,87 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    background-image: url(../images/pattern-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1{
+        color: #fff;
+        padding: 15px 0;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    form{
+        padding-bottom: 100px;
+        
+        input[type="text"]{
+            outline: none;
+            border: none;
+            padding: 12px 10px;
+            width: 350px;
+            border-radius: 7px 0 0 7px;
+        }
+
+        button{
+            // position: absolute;
+            border: 1px solid hsl(0, 0%, 17%);
+            background-color: hsl(0, 0%, 17%);
+            color: #fff;
+            border-radius: 0 7px 7px 0;
+            margin-left: -.3rem;
+            padding: 13px 17px;
+            img{
+                height: 11px;
+            }
+        }
+    }
+
+}
+
+.ip-info{
+    display: flex;
+    z-index: 999;
+    justify-content: space-around;
+    padding: 20px ;
+    margin-top: -45px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 7px;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    p{
+        color: hsl(0, 0%, 59%);
+        padding-bottom: 10px;
+    }
+    span{
+        color: hsl(0, 0%, 17%);
+        font-weight: 700;
+    }
+
+}
+
+
+#map{
+    width: 100vw;
+    height: 73vh;
+    // background-color: cadetblue;
+}
+
+// color: hsl(0, 0%, 17%);
+// color: hsl(0, 0%, 59%);
